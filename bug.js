@@ -6,6 +6,7 @@ function calcularPromedio(numeros) {
     console.log(sumaTotal);
   }
   const promedio = sumaTotal / numeros.length;
+  console.log(sumaTotal + "es este la suma total");
   console.log(promedio + "es este");
   return promedio;
 }
